@@ -1,4 +1,4 @@
-# Installation-Guide-for-Windows-10---Apache-Superset-0.35.2
+# Installation-Guide-for-Windows-10--Apache-Superset-0.35.2
 # System Requirements
 1. Apache Superset requires Python evironment. Install [Python 3.6](https://www.python.org/downloads/release/python-360/).
 2. Install [Microsoft Visual C++ 14.0 with Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16). Make sure the following tools are selected.
