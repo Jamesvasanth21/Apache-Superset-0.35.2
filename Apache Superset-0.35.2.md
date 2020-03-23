@@ -10,7 +10,7 @@
     ```
     pip -V
     ``` 
-    If the above mentioned version is not present.Then download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
+    If pip version is not 20.0.2, then download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
         ```
         python get-pip.py
         ```
