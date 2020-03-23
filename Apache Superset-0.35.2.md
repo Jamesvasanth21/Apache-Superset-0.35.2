@@ -72,7 +72,7 @@ Follow these few simple steps to install Superset:
     ```
 7.  To start a development web server on port 8088, use -p to bind to another port
     ```
-    pythomn3 Scripts\superset run -p 8088 --with-threads --reload –debugger
+    python3 Scripts\superset run -p 8088 --with-threads --reload –debugger
     ```
 
 After installation, you should be able to point your browser to the right hostname:port http://localhost:8088, login using the credential you entered while creating the admin account, and navigate to Menu -> Admin -> Refresh Metadata. This action should bring in all of your datasources for Superset to be aware of, and they should show up in Menu -> Datasources, from where you can start playing with your data!
