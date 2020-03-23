@@ -15,11 +15,13 @@
         python get-pip.py
         ```
 3.	Superset stores database connection information in its metadata database. For that purpose, we use Cryptography Library. Python library to encrypt connection passwords. This library has OS level dependencies. Run this command.
-```
-pip install cryptography
-```
+    ```
+    pip install cryptography
+    ```
 4.	It is recommended to install Superset inside a virtualenv. Python 3 already ships virtualenv. But if it’s not installed in your environment for some reason, you can install it via the package for your operating systems, otherwise you can install from pip:
-pip install virtualenv
+    ```
+    pip install virtualenv
+    ```
 5.	You can create and activate a virtualenv by:
 # virtualenv is shipped in Python 3.6+ as venv instead of pyvenv.# See #https://docs.python.org/3.6/library/venv.html
 python3 -m venv venv
