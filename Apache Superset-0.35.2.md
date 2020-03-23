@@ -1,6 +1,6 @@
 # Installation-Guide-for-Windows-10---Apache-Superset-0.35.2
 # System Requirements
-1.	Superset has deprecated support for Python 2.* and supports only ~=3.6 to take advantage of the newer Python features and reduce the burden of supporting previous versions. We run our test suite against 3.6, but 3.7 is fully supported as well.
+1.	Superset requires Python evironment. Install [Python 3.6](https://www.python.org/downloads/release/python-360/)
 2.	Microsoft Visual C++ 14.0. 
 Install Microsoft Visual C++ 14.x standalone: Build Tools for Visual Studio 2019 (x86, x64, ARM, ARM64).
 •	Select latest version of MSVCv142 - VS 2019 C++ x64/x86 build tools.
