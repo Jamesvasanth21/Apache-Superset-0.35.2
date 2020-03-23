@@ -46,8 +46,8 @@ Follow these few simple steps to install Superset:
     ```
     (venv) C:\>pip install apache-superset
     ```
- 2.  Initialize the database
-    ```
+2.  Initialize the database
+     ```
     (venv) C:\>cd venv
     (venv) C:\venv>py Scripts\superset db upgrade
     ```
