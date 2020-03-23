@@ -43,22 +43,33 @@
 Please Type the following commands inside the virtual environment.
 Follow these few simple steps to install Superset:
     1. Install superset
+    ```
     (venv) C:\>pip install apache-superset
-
+    ```
     2. Initialize the database
+    ```
     (venv) C:\>cd venv
     (venv) C:\venv>py Scripts\superset db upgrade
+    ```
     3. Create an admin user (you will be prompted to set a username, first and last name before setting a password)
+    ```
     (venv) C:\venv>cd ..
     (venv) C:\>set FLASK_APP=superset
     (venv) C:\>flask fab create-admin
     (venv) C:\>cd venv
+    ```
     4. Load some data to play with
+    ```
     (venv) C:\venv>py Scripts\superset load_examples
+    ```
     5. Create default roles and permissions
+    ```
     (venv) C:\venv>py Scripts\superset init
-    5. To start a development web server on port 8088, use -p to bind to another port
+    ```
+    6. To start a development web server on port 8088, use -p to bind to another port
+    ```
     (venv) C:\venv>py Scripts\superset run -p 8088 --with-threads --reload –debugger
+    ```
 
 After installation, you should be able to point your browser to the right hostname:port http://localhost:8088, login using the credential you entered while creating the admin account, and navigate to Menu -> Admin -> Refresh Metadata. This action should bring in all of your datasources for Superset to be aware of, and they should show up in Menu -> Datasources, from where you can start playing with your data!
 # To INSTALL DATABASE DEPENDENCIES
