@@ -27,7 +27,7 @@
     python3 -m venv venv
     venv\Scripts\activate
     ```
-    Once you activated your virtualenv everything you are doing is confined inside the virtualenv. To exit a virtualenv just type      deactivate.
+    Once you activated your virtualenv everything you are doing is confined inside the virtualenv.
      ```
     venv\Scripts\deactivate
     ```
