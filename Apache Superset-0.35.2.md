@@ -8,7 +8,7 @@
 1.	Open Command Prompt in Administrator Mode move to C:\
 2.	Check whether your python installation contains pip package and It should be above version 20.0.2. Check version by using following cmd,
 ```pip -V``` 
-   - If the above mentioned version is not present.Then download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
+   If the above mentioned version is not present.Then download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
         ```
         python get-pip.py
         ```
