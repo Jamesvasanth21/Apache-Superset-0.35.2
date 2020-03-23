@@ -27,7 +27,10 @@
     python3 -m venv venv
     venv\Scripts\activate
     ```
-Once you activated your virtualenv everything you are doing is confined inside the virtualenv. To exit a virtualenv just type deactivate.
+    Once you activated your virtualenv everything you are doing is confined inside the virtualenv. To exit a virtualenv just type      deactivate.
+     ```
+    venv\Scripts\deactivate
+    ```
 6.Python’s setup tools and pip
 Put all the chances on your side by getting the very latest pip and setuptools libraries.:
 pip install --upgrade setuptools pip
