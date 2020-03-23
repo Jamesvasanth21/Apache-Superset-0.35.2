@@ -76,13 +76,7 @@ Follow these few simple steps to install Superset:
     ```
 
 After installation, you should be able to point your browser to the right hostname:port http://localhost:8088, login using the credential you entered while creating the admin account, and navigate to Menu -> Admin -> Refresh Metadata. This action should bring in all of your datasources for Superset to be aware of, and they should show up in Menu -> Datasources, from where you can start playing with your data!
-# To INSTALL DATABASE DEPENDENCIES
-1)	Stop server “ctrl+C”
-2)	I am using MS SQL Server and based on your database select the pypi package from here https://superset.apache.org/installation.html#database-dependencies
-(venv) C:\venv>cd ..
-(venv) C:\>pip install pymssql
-3)	(venv) C:\>cd venv
-4)	(venv) C:\venv>py Scripts\superset run -p 8088 --with-threads --reload –debugger
+
 # References:
 https://visualstudio.microsoft.com/visual-cpp-build-tools/
 https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
