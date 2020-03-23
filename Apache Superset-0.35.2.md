@@ -82,8 +82,8 @@ After installation, you should be able to point your browser to the right hostna
 - [Microsoft Visual C++ Community](https://answers.microsoft.com/en-us/windows/forum/all/microsoft-visual-c-140/6f0726e2-6c32-4719-9fe5-aa68b5ad8e6d)
 - [Apache Superset and Installation Guide](https://superset.apache.org/installation.html)
 - [Mark's Steps for Installation](https://gist.github.com/mark05e/d9cccae129dd11a21d7219eddd7d9923)
-- [Superset Not Recogiinised Error](https://github.com/apache/incubator-superset/issues/4479)
-
+- [Superset Not Recognised Error](https://github.com/apache/incubator-superset/issues/4479)
+- [Copy of My Command Prompt]()
 
 
 
