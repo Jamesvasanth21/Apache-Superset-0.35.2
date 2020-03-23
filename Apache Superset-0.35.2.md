@@ -31,13 +31,14 @@
     ```
     venv\Scripts\deactivate
     ```
-6.Python’s setup tools and pip
-Put all the chances on your side by getting the very latest pip and setuptools libraries.:
+6.  Put all the chances on your side by getting the very latest pip and setuptools libraries.
     ```
     pip install --upgrade setuptools pip
     ```
-setuptools in c:\venv\lib\site-packages (46.0.0)
-pip in c:\venv\lib\site-packages (20.0.2)
+    Make sure the setuptools and pip are present.
+    -setuptools in c:\venv\lib\site-packages (46.0.0)
+    -pip in c:\venv\lib\site-packages (20.0.2)
+
 
 
 Superset installation and initialization
