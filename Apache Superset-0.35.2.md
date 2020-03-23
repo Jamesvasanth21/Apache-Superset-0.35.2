@@ -6,14 +6,12 @@
     - Windows 10 SDK (10.0.18362.0)
 # Requirements and Environment Set-Up
 1.	Open Command Prompt in Administrator Mode move to C:\
-2.	Check whether your python installation contains pip package and It should be above version 20.0.2. Check version by using following cmd, 
-```
-pip -V
-```
- > If not download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
-```
-python get-pip.py
-```
+2.	Check whether your python installation contains pip package and It should be above version 20.0.2. Check version by using following cmd,
+```pip -V``` 
+   - If the above mentioned version is not present.Then download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), and run 
+        ```
+        python get-pip.py
+        ```
  
 3.	Superset stores database connection information in its metadata database. For that purpose, we use Cryptography Library. Python library to encrypt connection passwords. This library has OS level dependencies. Run this command.
 
