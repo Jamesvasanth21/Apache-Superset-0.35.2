@@ -14,7 +14,7 @@
         ```
         python get-pip.py
         ```
-3.	Superset stores database connection information in its metadata database. For that purpose, we use Cryptography Library. Python library to encrypt connection passwords. This library has OS level dependencies. Run this command.
+3.	Superset stores database connection information in its metadata database. For that purpose, we use Cryptography Library which is a Python library to encrypt connection passwords. This library has OS level dependencies, so to install this admin previleges is neccesary. Run this command.
     ```
     pip install cryptography
     ```
