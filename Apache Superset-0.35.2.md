@@ -69,20 +69,5 @@ https://answers.microsoft.com/en-us/windows/forum/all/microsoft-visual-c-140/6f0
 https://gist.github.com/mark05e/d9cccae129dd11a21d7219eddd7d9923
 
 
-Super - Set on Docker in Linux
-Step 1:	https://linuxize.com/post/how-to-install-and-use-docker-on-ubuntu-18-04/
-
-Step 2:	https://docs.docker.com/compose/install/
-	
-Step 3:	https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/
-
-Step 4:	https://superset.incubator.apache.org/installation.html#
-
-							
-In case of Error at Step 4:	https://github.com/docker/compose/issues/4181
-
-
-
-
 
 
