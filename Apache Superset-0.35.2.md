@@ -46,8 +46,7 @@ Follow these few simple steps to install Superset:
     ```
     pip install apache-superset
     ```
-2.  Install DB Drivers
-    I am using MS SQL Server and based on your database requirement. Select the pypi package from [here](https://superset.apache.org/installation.html#database-dependencies)
+2.  Install DB Drivers. I am using MS SQL Server and based on your database requirement. Select the pypi package from [here](https://superset.apache.org/installation.html#database-dependencies)
     ```
     pip install pymssql
     ```    
