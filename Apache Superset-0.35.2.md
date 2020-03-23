@@ -18,7 +18,7 @@
     ```
     pip install cryptography
     ```
-4.	It is recommended to install Superset inside a virtualenv. Python 3 already ships virtualenv. But if it’s not installed in your environment for some reason, you can install it via the package for your operating systems, otherwise you can install from pip:
+4.	It is recommended to install Superset inside a virtualenv. Python 3 already ships virtualenv. But if it’s not installed in your environment for some reason, you can install it from pip. Run this command.
     ```
     pip install virtualenv
     ```
