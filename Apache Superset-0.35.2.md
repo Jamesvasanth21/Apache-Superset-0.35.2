@@ -83,7 +83,7 @@ After installation, you should be able to point your browser to the right hostna
 - [Apache Superset and Installation Guide](https://superset.apache.org/installation.html)
 - [Mark's Steps for Installation](https://gist.github.com/mark05e/d9cccae129dd11a21d7219eddd7d9923)
 - [Superset Not Recognised Error](https://github.com/apache/incubator-superset/issues/4479)
-- [Copy of My Command Prompt](https://drive.google.com/open?id=18iMBnWtXhzZZ8-CF7ZXd0-ZXf5dmh4q-)
+- [My Command Prompt](My Command Prompt.md)
 
 
 
