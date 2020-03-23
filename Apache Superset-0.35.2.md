@@ -23,9 +23,11 @@
     pip install virtualenv
     ```
 5.	You can create and activate a virtualenv by:
-# virtualenv is shipped in Python 3.6+ as venv instead of pyvenv.# See #https://docs.python.org/3.6/library/venv.html
-python3 -m venv venv
-venv\Scripts\activate
+    # virtualenv is shipped in Python 3.6+ as venv instead of pyvenv.# See #https://docs.python.org/3.6/library/venv.html
+    ```
+    python3 -m venv venv
+    venv\Scripts\activate
+    ```
 Once you activated your virtualenv everything you are doing is confined inside the virtualenv. To exit a virtualenv just type deactivate.
 6.Python’s setup tools and pip
 Put all the chances on your side by getting the very latest pip and setuptools libraries.:
