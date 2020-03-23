@@ -39,36 +39,36 @@
     -setuptools in c:\venv\lib\site-packages (46.0.0)
     -pip in c:\venv\lib\site-packages (20.0.2)
 
+# Superset installation and initialization. 
+Please Type the following commands inside the virtual environment.
+Follow these few simple steps to install Superset:
+    1. Install superset
+    (venv) C:\>pip install apache-superset
 
+    2. Initialize the database
+    (venv) C:\>cd venv
+    (venv) C:\venv>py Scripts\superset db upgrade
+    3. Create an admin user (you will be prompted to set a username, first and last name before setting a password)
+    (venv) C:\venv>cd ..
+    (venv) C:\>set FLASK_APP=superset
+    (venv) C:\>flask fab create-admin
+    (venv) C:\>cd venv
+    4. Load some data to play with
+    (venv) C:\venv>py Scripts\superset load_examples
+    5. Create default roles and permissions
+    (venv) C:\venv>py Scripts\superset init
+    5. To start a development web server on port 8088, use -p to bind to another port
+    (venv) C:\venv>py Scripts\superset run -p 8088 --with-threads --reload –debugger
 
-Superset installation and initialization
-Follow these few simple steps to install Superset.:
-# Install superset
-(venv) C:\>pip install apache-superset
-
-# Initialize the database
-(venv) C:\>cd venv
-(venv) C:\venv>py Scripts\superset db upgrade
-# Create an admin user (you will be prompted to set a username, first and last name before setting a password)
-(venv) C:\venv>cd ..
-(venv) C:\>set FLASK_APP=superset
-(venv) C:\>flask fab create-admin
-(venv) C:\>cd venv
-# Load some data to play with
-(venv) C:\venv>py Scripts\superset load_examples
-# Create default roles and permissions
-(venv) C:\venv>py Scripts\superset init
-# To start a development web server on port 8088, use -p to bind to another port
-(venv) C:\venv>py Scripts\superset run -p 8088 --with-threads --reload –debugger
 After installation, you should be able to point your browser to the right hostname:port http://localhost:8088, login using the credential you entered while creating the admin account, and navigate to Menu -> Admin -> Refresh Metadata. This action should bring in all of your datasources for Superset to be aware of, and they should show up in Menu -> Datasources, from where you can start playing with your data!
-To INSTALL DATABASE DEPENDENCIES
+# To INSTALL DATABASE DEPENDENCIES
 1)	Stop server “ctrl+C”
 2)	I am using MS SQL Server and based on your database select the pypi package from here https://superset.apache.org/installation.html#database-dependencies
 (venv) C:\venv>cd ..
 (venv) C:\>pip install pymssql
 3)	(venv) C:\>cd venv
 4)	(venv) C:\venv>py Scripts\superset run -p 8088 --with-threads --reload –debugger
-References:
+# References:
 https://visualstudio.microsoft.com/visual-cpp-build-tools/
 https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
 https://www.itechtics.com/microsoft-visual-c-redistributable-versions-direct-download-links/
