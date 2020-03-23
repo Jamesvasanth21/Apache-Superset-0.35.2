@@ -23,7 +23,6 @@
     pip install virtualenv
     ```
 5.	You can create and activate a virtualenv by:
-    # virtualenv is shipped in Python 3.6+ as venv instead of pyvenv.# See #https://docs.python.org/3.6/library/venv.html
     ```
     python3 -m venv venv
     venv\Scripts\activate
