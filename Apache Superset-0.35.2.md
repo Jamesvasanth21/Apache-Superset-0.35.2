@@ -78,15 +78,12 @@ Follow these few simple steps to install Superset:
 After installation, you should be able to point your browser to the right hostname:port http://localhost:8088, login using the credential you entered while creating the admin account, and navigate to Menu -> Admin -> Refresh Metadata. This action should bring in all of your datasources for Superset to be aware of, and they should show up in Menu -> Datasources, from where you can start playing with your data!
 
 # References:
-https://visualstudio.microsoft.com/visual-cpp-build-tools/
-https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
-https://www.itechtics.com/microsoft-visual-c-redistributable-versions-direct-download-links/
-https://github.com/apache/incubator-superset/issues/7707
-https://github.com/apache/incubator-superset/issues/4479
-https://github.com/apache/incubator-superset/issues/7763
-https://stackoverflow.com/questions/50295010/is-there-a-way-to-create-read-only-dashboard-in-apache-superset
-https://answers.microsoft.com/en-us/windows/forum/all/microsoft-visual-c-140/6f0726e2-6c32-4719-9fe5-aa68b5ad8e6d
-https://gist.github.com/mark05e/d9cccae129dd11a21d7219eddd7d9923
+- https://superset.apache.org/installation.html
+- https://gist.github.com/mark05e/d9cccae129dd11a21d7219eddd7d9923
+- https://github.com/apache/incubator-superset/issues/7707
+- https://github.com/apache/incubator-superset/issues/4479
+- https://answers.microsoft.com/en-us/windows/forum/all/microsoft-visual-c-140/6f0726e2-6c32-4719-9fe5-aa68b5ad8e6d
+
 
 
 
