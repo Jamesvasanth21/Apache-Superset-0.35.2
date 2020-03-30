@@ -3,6 +3,7 @@
 2. Install [Microsoft Visual C++ 14.0 with Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16). Make sure the following tools are selected.
      - MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.24)
      - Windows 10 SDK (10.0.18362.0)
+
 # Requirements and Environment Set-Up
 1.	Open Command Prompt in Administrator Mode move to C:\
 2.	Check whether your python installation contains pip package and It should be above version 20.0.2. Check version by using following cmd 
