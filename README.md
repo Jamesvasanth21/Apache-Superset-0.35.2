@@ -5,6 +5,8 @@
      - Windows 10 SDK (10.0.18362.0)
 
 # Requirements and Environment Set-Up
+The below steps are used to setup the environment
+
 1.	Open Command Prompt in Administrator Mode move to C:\
 2.	Check whether your python installation contains pip package and It should be above version 20.0.2. Check version by using following cmd 
     ```
