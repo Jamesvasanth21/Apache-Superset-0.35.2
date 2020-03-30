@@ -1,5 +1,3 @@
-# Apache-Superset-0.35.2
-This is the installation guide for Apache Superset 0.35.2.
 # Installation-Guide-for-Windows-10--Apache-Superset-0.35.2
 # System Requirements
 1. Apache Superset requires Python evironment. Install [Python 3.6](https://www.python.org/downloads/release/python-360/).
